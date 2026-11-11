@@ -27,7 +27,7 @@ Escolha conforme as habilidades da equipe e o que o regulamento exige. As ferram
 |---|---|---|---|
 | Protótipo clicável, sem código | Figma, Canva, slides interativos | Equipes sem programador; foco em UX | Pode valer menos em "funcionalidade" |
 | Gerador de app com IA | Lovable, v0, Bolt | App real e bonito em pouco tempo | Fica difícil de corrigir quando cresce; faça em passos pequenos |
-| Código com assistente de IA | Cursor, Claude Code, Copilot | Controle total, lógica própria | Exige alguém que saiba depurar |
+| Código com assistente de IA | Cursor, Copilot, Windsurf | Controle total, lógica própria | Exige alguém que saiba depurar |
 
 Recomende a abordagem que **a equipe consegue consertar sozinha** quando algo quebrar às pressas.
 

@@ -1,6 +1,6 @@
 # Skills para Hackathon
 
-Skills para o Claude que ajudam equipes a passar por cada etapa de um hackathon: da pesquisa do problema até a entrega. Elas são genéricas: as regras de cada evento (prazos, critérios, entregáveis, o que desclassifica) vêm do regulamento que a própria equipe fornece.
+Skills para assistentes de IA que ajudam equipes a passar por cada etapa de um hackathon: da pesquisa do problema até a entrega. Elas são genéricas: as regras de cada evento (prazos, critérios, entregáveis, o que desclassifica) vêm do regulamento que a própria equipe fornece.
 
 ## As skills
 
@@ -31,29 +31,22 @@ Assim a equipe não precisa repetir o contexto em cada conversa. No chat (sem ac
 
 **Dica:** comece colando o regulamento do hackathon. As skills usam os critérios de avaliação e as regras de desclassificação dele em todas as etapas.
 
-## Instalação
+## Como usar
 
-### Claude Code (plugin)
+Cada skill é um arquivo Markdown (`skills/<nome>/SKILL.md`) com instruções em texto simples. Funciona com qualquer assistente de IA.
 
-```bash
-/plugin marketplace add arantespp/hackathon-skills
-```
+### Assistentes que aceitam skills no formato `SKILL.md`
 
-```bash
-/plugin install hackathon@hackathon-skills
-```
+Várias ferramentas já leem pastas de skills nesse formato (um `SKILL.md` com `name` e `description` no cabeçalho). Copie as pastas de `skills/` para o diretório de skills da sua ferramenta, conforme a documentação dela. O assistente aciona cada skill sozinho, pelo que a equipe pede.
 
-### Claude Code (cópia manual)
+### Qualquer chat de IA
 
-Copie as pastas de `skills/` para `~/.claude/skills/` (todas as suas sessões) ou para `.claude/skills/` dentro do projeto da equipe.
+1. Abra o `SKILL.md` da etapa em que a equipe está.
+2. Copie o conteúdo e cole no início da conversa, ou nas instruções personalizadas de um projeto ou assistente customizado, se a ferramenta tiver esse recurso. Também dá para anexar o arquivo.
+3. Cole o regulamento do hackathon e o `PROJETO.md`, se já existir.
+4. Ao terminar a etapa, salve o bloco de saída no `PROJETO.md` e abra uma nova conversa para a próxima etapa.
 
-### Claude.ai (app ou web)
-
-Compacte cada pasta de `skills/` em um `.zip` (por exemplo, `pesquisa-problema.zip` contendo `pesquisa-problema/SKILL.md`) e envie em **Configurações → Capacidades → Skills**.
-
-## Uso
-
-As skills são acionadas pelo que a equipe pede. Exemplos:
+## Exemplos de pedidos
 
 - "Aqui está o regulamento e os desafios. Qual desafio devemos escolher?"
 - "Vamos desenhar o fluxo de telas da solução."
