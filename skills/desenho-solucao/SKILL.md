@@ -9,14 +9,22 @@ Objetivo: sair desta etapa com **uma solução decidida, um fluxo de telas e um 
 
 Tempo sugerido: cerca de 15–20% do tempo total.
 
-## Antes de começar: o arquivo PROJETO.md
+## Antes de começar: o registro do projeto
 
-As skills de hackathon compartilham um arquivo `PROJETO.md` na raiz do projeto. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
+As skills de hackathon compartilham um **registro do projeto**: um único documento com as seções Regras, Problema, Solução, Protótipo, Pitch e Revisões. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
 
-1. Se `PROJETO.md` existir, leia-o inteiro, principalmente `## Regras` e `## Problema`.
-2. Se não houver `## Regras`, peça o regulamento à equipe e registre prazos, entregáveis, critérios de avaliação, regras que desclassificam e uso de IA permitido (marque `a confirmar` o que faltar).
-3. Se não houver `## Problema`, peça à equipe a persona e a declaração do problema em uma frase. Se nem isso existir, sugira começar pela skill **pesquisa-problema**.
-4. Sem acesso a arquivos, trabalhe na conversa e entregue no fim o bloco em Markdown para a equipe salvar.
+**Onde fica o registro.** Use o lugar mais durável disponível neste ambiente, nesta ordem de preferência:
+1. O lugar que a equipe indicou (arquivo, documento, link). Se a equipe ainda não indicou e há mais de uma pessoa trabalhando, pergunte se existe um lugar compartilhado.
+2. Se você tem acesso a arquivos ou a um repositório: um arquivo `PROJETO.md` na raiz.
+3. Se você pode criar ou editar documentos (num drive conectado, numa área de documentos ou artefatos, num canvas): um documento chamado "Registro do projeto".
+4. Se nada disso estiver disponível: entregue a sua seção no fim da resposta, em Markdown, num único bloco, e peça que a equipe salve e cole na próxima conversa.
+
+Sempre diga à equipe onde o registro ficou salvo.
+
+**Ler o registro.** Procure o registro no lugar indicado pela equipe ou nos lugares que você consegue acessar e leia-o inteiro, principalmente `## Regras` e `## Problema`. Se não encontrar, peça que a equipe cole ou anexe.
+
+- Se não houver `## Regras`, peça o regulamento à equipe e registre prazos, entregáveis, critérios de avaliação, regras que desclassificam e uso de IA permitido (marque `a confirmar` o que faltar).
+- Se não houver `## Problema`, peça à equipe a persona e a declaração do problema em uma frase. Se nem isso existir, sugira começar pela skill **pesquisa-problema**.
 
 ## Passos
 
@@ -82,7 +90,7 @@ Sugira de 3 a 5 nomes curtos e fáceis de falar no vídeo. A equipe escolhe.
 - **Pular a viabilidade.** A banca quase sempre pergunta como isso se sustenta.
 
 ## Saída
-Acrescente ao `PROJETO.md`:
+Acrescente ao registro do projeto:
 
 ```markdown
 ## Solução

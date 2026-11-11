@@ -16,7 +16,7 @@ Reserve os minutos finais (cerca de 5–10%) para a entrega, com uma versão de 
 
 ## Como as skills se conectam
 
-Todas leem e escrevem um arquivo `PROJETO.md` na raiz do projeto da equipe:
+Todas leem e escrevem um **registro do projeto**: um único documento, com uma seção por etapa:
 
 ```
 ## Regras      ← criada pela primeira skill usada, a partir do regulamento
@@ -27,7 +27,16 @@ Todas leem e escrevem um arquivo `PROJETO.md` na raiz do projeto da equipe:
 ## Revisões    ← avaliacao-jurado
 ```
 
-Assim a equipe não precisa repetir o contexto em cada conversa. No chat (sem acesso a arquivos), as skills devolvem o bloco em Markdown para a equipe guardar e colar na próxima conversa.
+As skills definem **o que** guardar, não **onde**. Cada assistente usa o lugar mais durável que tiver, nesta ordem:
+
+1. o lugar que a equipe indicou;
+2. um arquivo `PROJETO.md`, se o assistente tem acesso a arquivos ou a um repositório;
+3. um documento "Registro do projeto", se o assistente pode criar documentos (num drive conectado, numa área de documentos ou artefatos, num canvas);
+4. um bloco em Markdown no fim da resposta, para a equipe salvar e colar na próxima conversa.
+
+A skill sempre diz onde salvou o registro.
+
+**Equipes com mais de uma pessoa:** escolham **um único lugar compartilhado** para o registro (um documento na nuvem ou um repositório) e informem esse lugar ao assistente logo na primeira conversa. Cada integrante pode usar um assistente diferente; o registro é o que mantém todos alinhados.
 
 **Dica:** comece colando o regulamento do hackathon. As skills usam os critérios de avaliação e as regras de desclassificação dele em todas as etapas.
 
@@ -43,8 +52,8 @@ Várias ferramentas já leem pastas de skills nesse formato (um `SKILL.md` com `
 
 1. Abra o `SKILL.md` da etapa em que a equipe está.
 2. Copie o conteúdo e cole no início da conversa, ou nas instruções personalizadas de um projeto ou assistente customizado, se a ferramenta tiver esse recurso. Também dá para anexar o arquivo.
-3. Cole o regulamento do hackathon e o `PROJETO.md`, se já existir.
-4. Ao terminar a etapa, salve o bloco de saída no `PROJETO.md` e abra uma nova conversa para a próxima etapa.
+3. Cole o regulamento do hackathon e o registro do projeto, ou diga onde ele está.
+4. Ao terminar a etapa, confira se a seção nova foi salva no registro e abra uma nova conversa para a próxima etapa.
 
 ## Exemplos de pedidos
 
@@ -57,4 +66,4 @@ Várias ferramentas já leem pastas de skills nesse formato (um `SKILL.md` com `
 
 ## Princípio: a IA ajuda, a equipe decide
 
-Muitos regulamentos desclassificam projetos sem autoria da equipe. As skills propõem opções e fazem perguntas, mas deixam as decisões com a equipe e as registram no `PROJETO.md`.
+Muitos regulamentos desclassificam projetos sem autoria da equipe. As skills propõem opções e fazem perguntas, mas deixam as decisões com a equipe e as anotam no registro do projeto.

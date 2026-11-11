@@ -9,16 +9,24 @@ Objetivo: terminar esta etapa com **um problema específico, de um público conc
 
 Tempo sugerido: cerca de 15–20% do tempo total do hackathon.
 
-## Antes de começar: o arquivo PROJETO.md
+## Antes de começar: o registro do projeto
 
-As skills de hackathon compartilham um arquivo `PROJETO.md` na raiz do projeto. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
+As skills de hackathon compartilham um **registro do projeto**: um único documento com as seções Regras, Problema, Solução, Protótipo, Pitch e Revisões. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
 
-1. Se `PROJETO.md` existir, leia-o inteiro antes de qualquer coisa.
-2. Se não existir, ou se não tiver a seção `## Regras`, peça à equipe o regulamento (edital) e o texto dos desafios e crie a seção com o modelo abaixo. Extraia só o que muda decisões. Se a equipe não tiver o regulamento, pergunte cada item e marque o que ficar sem resposta como `a confirmar`.
-3. Se você não tiver acesso a arquivos (por exemplo, numa conversa de chat), mantenha o conteúdo na conversa e, no fim, entregue o bloco em Markdown para a equipe salvar.
+**Onde fica o registro.** Use o lugar mais durável disponível neste ambiente, nesta ordem de preferência:
+1. O lugar que a equipe indicou (arquivo, documento, link). Se a equipe ainda não indicou e há mais de uma pessoa trabalhando, pergunte se existe um lugar compartilhado.
+2. Se você tem acesso a arquivos ou a um repositório: um arquivo `PROJETO.md` na raiz.
+3. Se você pode criar ou editar documentos (num drive conectado, numa área de documentos ou artefatos, num canvas): um documento chamado "Registro do projeto".
+4. Se nada disso estiver disponível: entregue a sua seção no fim da resposta, em Markdown, num único bloco, e peça que a equipe salve e cole na próxima conversa.
+
+Sempre diga à equipe onde o registro ficou salvo.
+
+**Ler o registro.** Procure o registro no lugar indicado pela equipe ou nos lugares que você consegue acessar e leia-o inteiro. Se não encontrar, peça que a equipe cole ou anexe.
+
+Se o registro não existir, ou não tiver a seção `## Regras`, peça à equipe o regulamento (edital) e o texto dos desafios e crie a seção com o modelo abaixo. Extraia só o que muda decisões. Se a equipe não tiver o regulamento, pergunte cada item e marque o que ficar sem resposta como `a confirmar`.
 
 ```markdown
-# PROJETO
+# Registro do projeto
 
 ## Regras
 - Prazo final de entrega: <data e hora, fuso>
@@ -85,7 +93,7 @@ O que precisa ser verdade para esse problema valer a pena? Liste de 2 a 3 hipót
 - **Deixar a IA decidir tudo.** Muitos regulamentos desclassificam projetos sem autoria da equipe. A IA pesquisa e propõe; a equipe decide e registra.
 
 ## Saída
-Acrescente ao `PROJETO.md`:
+Acrescente ao registro do projeto:
 
 ```markdown
 ## Problema

@@ -7,15 +7,23 @@ description: Avalia o projeto de hackathon como um jurado faria, dando nota em c
 
 Objetivo: dar à equipe **uma avaliação honesta, do ponto de vista da banca**, e dizer exatamente o que fazer com o tempo que resta. Pode ser usada depois de qualquer etapa e, obrigatoriamente, antes do envio.
 
-## Antes de começar: o arquivo PROJETO.md
+## Antes de começar: o registro do projeto
 
-As skills de hackathon compartilham um arquivo `PROJETO.md` na raiz do projeto. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
+As skills de hackathon compartilham um **registro do projeto**: um único documento com as seções Regras, Problema, Solução, Protótipo, Pitch e Revisões. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
 
-1. Se `PROJETO.md` existir, leia-o inteiro.
-2. Os critérios de avaliação e as regras que desclassificam vêm de `## Regras`. Se essa seção não existir, peça o regulamento. Sem regulamento, use os critérios comuns (inovação, funcionalidade, aderência ao desafio, impacto e viabilidade) e **diga que está supondo**.
-3. Pergunte quanto tempo falta até o prazo final. As recomendações dependem disso.
-4. Avalie também o que a equipe enviar na conversa: link do protótipo, roteiro, transcrição ou arquivo do vídeo, slides.
-5. Sem acesso a arquivos, trabalhe na conversa e entregue no fim o bloco em Markdown para a equipe salvar.
+**Onde fica o registro.** Use o lugar mais durável disponível neste ambiente, nesta ordem de preferência:
+1. O lugar que a equipe indicou (arquivo, documento, link). Se a equipe ainda não indicou e há mais de uma pessoa trabalhando, pergunte se existe um lugar compartilhado.
+2. Se você tem acesso a arquivos ou a um repositório: um arquivo `PROJETO.md` na raiz.
+3. Se você pode criar ou editar documentos (num drive conectado, numa área de documentos ou artefatos, num canvas): um documento chamado "Registro do projeto".
+4. Se nada disso estiver disponível: entregue a sua seção no fim da resposta, em Markdown, num único bloco, e peça que a equipe salve e cole na próxima conversa.
+
+Sempre diga à equipe onde o registro ficou salvo.
+
+**Ler o registro.** Procure o registro no lugar indicado pela equipe ou nos lugares que você consegue acessar e leia-o inteiro. Se não encontrar, peça que a equipe cole ou anexe.
+
+- Os critérios de avaliação e as regras que desclassificam vêm de `## Regras`. Se essa seção não existir, peça o regulamento. Sem regulamento, use os critérios comuns (inovação, funcionalidade, aderência ao desafio, impacto e viabilidade) e **diga que está supondo**.
+- Pergunte quanto tempo falta até o prazo final. As recomendações dependem disso.
+- Avalie também o que a equipe enviar na conversa: link do protótipo, roteiro, transcrição ou arquivo do vídeo, slides.
 
 ## Passos
 
@@ -68,7 +76,7 @@ Quando a equipe estiver perto de enviar, conduza o checklist item por item e pe�
 - [ ] Existe cópia local do vídeo e dos materiais.
 
 ## Saída
-Acrescente ao `PROJETO.md` (uma entrada por avaliação, a mais recente no topo):
+Acrescente ao registro do projeto (uma entrada por avaliação, a mais recente no topo):
 
 ```markdown
 ## Revisões

@@ -9,14 +9,22 @@ Objetivo: **um pitch que respeita o tempo, cobre tudo o que o regulamento exige 
 
 Tempo sugerido: cerca de 20–25% do tempo total, contando slides, gravação e edição. Não comece a gravar na última hora.
 
-## Antes de começar: o arquivo PROJETO.md
+## Antes de começar: o registro do projeto
 
-As skills de hackathon compartilham um arquivo `PROJETO.md` na raiz do projeto. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
+As skills de hackathon compartilham um **registro do projeto**: um único documento com as seções Regras, Problema, Solução, Protótipo, Pitch e Revisões. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
 
-1. Se `PROJETO.md` existir, leia-o inteiro. O pitch usa tudo: `## Regras`, `## Problema`, `## Solução` e `## Protótipo`.
-2. Se não houver `## Regras`, pergunte à equipe: duração máxima, formato (vídeo gravado ou ao vivo), elementos obrigatórios, onde publicar, uso de voz ou avatar de IA permitido, critérios de avaliação.
-3. Se faltarem problema, solução ou protótipo, peça à equipe um resumo de cada um antes de escrever.
-4. Sem acesso a arquivos, trabalhe na conversa e entregue no fim o bloco em Markdown para a equipe salvar.
+**Onde fica o registro.** Use o lugar mais durável disponível neste ambiente, nesta ordem de preferência:
+1. O lugar que a equipe indicou (arquivo, documento, link). Se a equipe ainda não indicou e há mais de uma pessoa trabalhando, pergunte se existe um lugar compartilhado.
+2. Se você tem acesso a arquivos ou a um repositório: um arquivo `PROJETO.md` na raiz.
+3. Se você pode criar ou editar documentos (num drive conectado, numa área de documentos ou artefatos, num canvas): um documento chamado "Registro do projeto".
+4. Se nada disso estiver disponível: entregue a sua seção no fim da resposta, em Markdown, num único bloco, e peça que a equipe salve e cole na próxima conversa.
+
+Sempre diga à equipe onde o registro ficou salvo.
+
+**Ler o registro.** Procure o registro no lugar indicado pela equipe ou nos lugares que você consegue acessar e leia-o inteiro. O pitch usa tudo: `## Regras`, `## Problema`, `## Solução` e `## Protótipo`. Se não encontrar, peça que a equipe cole ou anexe.
+
+- Se não houver `## Regras`, pergunte à equipe: duração máxima, formato (vídeo gravado ou ao vivo), elementos obrigatórios, onde publicar, uso de voz ou avatar de IA permitido, critérios de avaliação.
+- Se faltarem problema, solução ou protótipo, peça à equipe um resumo de cada um antes de escrever.
 
 ## Passos
 
@@ -55,7 +63,7 @@ Escreva o roteiro com tempo, fala e o que aparece na tela:
 
 ### 4. Demo
 - Mostre **o produto funcionando**, não slides que descrevem o produto.
-- Siga o roteiro de cliques do `## Protótipo` e vá direto ao momento "uau".
+- Siga o roteiro de cliques da seção `## Protótipo` e vá direto ao momento "uau".
 - Corte esperas e carregamentos na edição; dê zoom no que importa.
 - Narre o benefício para a persona, não o botão ("em um clique ela descobre…", e não "aqui clicamos em gerar").
 - Se algo é simulado, diga isso em uma frase curta.
@@ -93,7 +101,7 @@ Escreva o roteiro com tempo, fala e o que aparece na tela:
 - **Deixar a gravação para o fim.** Edição e upload sempre demoram mais que o previsto.
 
 ## Saída
-Acrescente ao `PROJETO.md`:
+Acrescente ao registro do projeto:
 
 ```markdown
 ## Pitch

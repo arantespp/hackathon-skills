@@ -9,14 +9,22 @@ Objetivo: ter **um protótipo que percorre o caminho feliz de ponta a ponta sem 
 
 Tempo sugerido: cerca de 30–35% do tempo total. É a etapa mais longa e a que mais atrasa: defina um horário de congelamento logo no início.
 
-## Antes de começar: o arquivo PROJETO.md
+## Antes de começar: o registro do projeto
 
-As skills de hackathon compartilham um arquivo `PROJETO.md` na raiz do projeto. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
+As skills de hackathon compartilham um **registro do projeto**: um único documento com as seções Regras, Problema, Solução, Protótipo, Pitch e Revisões. Cada etapa lê o que as anteriores escreveram e acrescenta a sua seção.
 
-1. Se `PROJETO.md` existir, leia-o inteiro, principalmente `## Regras` (o que o regulamento exige do protótipo) e `## Solução` (fluxo, telas, escopo).
-2. Se não houver `## Regras`, pergunte à equipe: prazo final, que tipo de protótipo é exigido (navegável, funcional, código-fonte), se o link precisa ser público e o que desclassifica.
-3. Se não houver `## Solução`, peça o caminho feliz, a lista de telas e o escopo mínimo. Se nada disso existir, sugira a skill **desenho-solucao** antes de construir.
-4. Sem acesso a arquivos, trabalhe na conversa e entregue no fim o bloco em Markdown para a equipe salvar.
+**Onde fica o registro.** Use o lugar mais durável disponível neste ambiente, nesta ordem de preferência:
+1. O lugar que a equipe indicou (arquivo, documento, link). Se a equipe ainda não indicou e há mais de uma pessoa trabalhando, pergunte se existe um lugar compartilhado.
+2. Se você tem acesso a arquivos ou a um repositório: um arquivo `PROJETO.md` na raiz.
+3. Se você pode criar ou editar documentos (num drive conectado, numa área de documentos ou artefatos, num canvas): um documento chamado "Registro do projeto".
+4. Se nada disso estiver disponível: entregue a sua seção no fim da resposta, em Markdown, num único bloco, e peça que a equipe salve e cole na próxima conversa.
+
+Sempre diga à equipe onde o registro ficou salvo.
+
+**Ler o registro.** Procure o registro no lugar indicado pela equipe ou nos lugares que você consegue acessar e leia-o inteiro, principalmente `## Regras` (o que o regulamento exige do protótipo) e `## Solução` (fluxo, telas, escopo). Se não encontrar, peça que a equipe cole ou anexe.
+
+- Se não houver `## Regras`, pergunte à equipe: prazo final, que tipo de protótipo é exigido (navegável, funcional, código-fonte), se o link precisa ser público e o que desclassifica.
+- Se não houver `## Solução`, peça o caminho feliz, a lista de telas e o escopo mínimo. Se nada disso existir, sugira a skill **desenho-solucao** antes de construir.
 
 ## Passos
 
@@ -32,7 +40,7 @@ Escolha conforme as habilidades da equipe e o que o regulamento exige. As ferram
 Recomende a abordagem que **a equipe consegue consertar sozinha** quando algo quebrar às pressas.
 
 ### 2. Defina o horário de congelamento
-Marque um horário a partir do qual só se corrigem erros, sem novas funcionalidades. Ele deve deixar tempo para a gravação do pitch (em geral, ao menos 25–30% do tempo total restante). Anote no `PROJETO.md`.
+Marque um horário a partir do qual só se corrigem erros, sem novas funcionalidades. Ele deve deixar tempo para a gravação do pitch (em geral, ao menos 25–30% do tempo total restante). Anote no registro do projeto.
 
 ### 3. Dados de demonstração
 Crie dados fictícios realistas e coerentes com a persona: nomes, produtos, valores e datas plausíveis. Dados realistas deixam a demo crível; "Teste 1, Teste 2" derruba a impressão. Gere um arquivo de seed (JSON ou CSV) ou uma lista para colar na ferramenta.
@@ -89,7 +97,7 @@ Anote o que a equipe decidiu e construiu e onde a IA ajudou. Muitos regulamentos
 - **Esconder o que é simulado.** Diga "nesta versão os dados são simulados"; é aceito, mas ser pego não é.
 
 ## Saída
-Acrescente ao `PROJETO.md`:
+Acrescente ao registro do projeto:
 
 ```markdown
 ## Protótipo
