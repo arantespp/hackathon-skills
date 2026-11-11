@@ -2,6 +2,31 @@
 
 Skills para assistentes de IA que ajudam equipes a passar por cada etapa de um hackathon: da pesquisa do problema até a entrega. Elas são genéricas: as regras de cada evento (prazos, critérios, entregáveis, o que desclassifica) vêm do regulamento que a própria equipe fornece.
 
+## Os pilares
+
+```mermaid
+flowchart TB
+  H["🏆 Projeto do hackathon"]
+  subgraph PILARES[" "]
+    direction LR
+    A["🤖 <b>Assistentes de IA</b><br/>ChatGPT, Claude, Gemini…<br/>e as conexões de cada um:<br/>busca na web, drive, arquivos"]
+    S["🧩 <b>Skills</b><br/>instruções reutilizáveis<br/>para cada etapa"]
+    M["🗂️ <b>Memória</b><br/>registro do projeto,<br/>compartilhado pela equipe"]
+  end
+  E["👥 <b>Equipe no comando</b><br/>decide, revisa e assina o trabalho"]
+  A --> H
+  S --> H
+  M --> H
+  E --> A
+  E --> S
+  E --> M
+```
+
+1. **Assistentes de IA:** conhecer o assistente que a equipe vai usar e o que ele consegue acessar (busca na web, drive, arquivos, documentos, código). Isso define como cada skill é carregada e onde a memória fica guardada.
+2. **Skills:** saber usar as skills deste repositório e criar as suas. Uma skill é só um arquivo de instruções que o assistente segue numa tarefa repetível.
+3. **Memória:** manter o registro do projeto, para que cada conversa, etapa e integrante parta do que já foi decidido, e não do zero.
+4. **Equipe no comando:** conduz os outros três. A IA pesquisa, propõe e acelera; a equipe escolhe, confere fontes e responde pelo projeto. Muitos regulamentos desclassificam projetos sem autoria da equipe.
+
 ## As skills
 
 | Skill | Etapa | O que entrega | Tempo sugerido |
